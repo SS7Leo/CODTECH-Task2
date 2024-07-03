@@ -78,6 +78,20 @@ Train a linear regression model using the training data to find the best-fit lin
 
       Histogram: To visualize the distribution of residuals.
 
+###  OUTPUT
+
+![Screenshot 2024-07-03 082720](https://github.com/SS7Leo/CODTECH-Task2/assets/140295932/54086d67-769b-4684-b9d2-05001b978eb8)
+
+![Screenshot 2024-07-03 082602](https://github.com/SS7Leo/CODTECH-Task2/assets/140295932/9b9c4cf5-243a-4707-b7a6-bd539b020714)
+
+![Screenshot 2024-07-03 082614](https://github.com/SS7Leo/CODTECH-Task2/assets/140295932/53689fc8-cef9-4890-b7b2-3811d9825862)
+
+![Screenshot 2024-07-03 082626](https://github.com/SS7Leo/CODTECH-Task2/assets/140295932/3874ef32-d8f7-44ac-bf43-cbe6c47e7631)
+
+
+
+
+
 
 
 
