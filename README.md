@@ -43,30 +43,39 @@ Train a linear regression model using the training data to find the best-fit lin
   - Libraries:
 
 pandas: For data manipulation and analysis.
+
 numpy: For numerical operations and array manipulation.
+
 matplotlib: For creating static, interactive, and animated visualizations in Python.
+
 scikit-learn: For machine learning, including tools for model building, evaluation, and dataset loading.
-Machine Learning Model:
 
-  - Linear Regression: A regression model used to predict a continuous target variable based on one or more predictor variables.
-Dataset:
+  - Machine Learning Model:
 
-  - California Housing Dataset: A dataset included in scikit-learn for housing prices in California.
+Linear Regression: A regression model used to predict a continuous target variable based on one or more predictor variables.
+    
+  - Dataset:
+
+California Housing Dataset: A dataset included in scikit-learn for housing prices in California.
     
   - Data Handling:
 
 DataFrame: Using pandas DataFrame to store and manipulate tabular data.
+
 Train-Test Split: Using scikit-learn to split the dataset into training and testing sets.
 
   - Model Evaluation Metrics:
 
 Mean Squared Error (MSE): For measuring the average squared difference between the predicted and actual values.
+
 R-squared (R²): For measuring the proportion of variance in the dependent variable that is predictable from the independent variable(s).
 
   - Data Visualization:
 
 Scatter Plot: To visualize the relationship between median income and median house value.
+
 Regression Line: To show the fit of the linear regression model on the training data.
+
 Histogram: To visualize the distribution of residuals.
 
 
