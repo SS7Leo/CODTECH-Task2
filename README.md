@@ -78,7 +78,7 @@ Train a linear regression model using the training data to find the best-fit lin
 
       Histogram: To visualize the distribution of residuals.
 
-###  OUTPUT
+###  Output
 
 ![Screenshot 2024-07-03 082720](https://github.com/SS7Leo/CODTECH-Task2/assets/140295932/54086d67-769b-4684-b9d2-05001b978eb8)
 
@@ -87,6 +87,40 @@ Train a linear regression model using the training data to find the best-fit lin
 ![Screenshot 2024-07-03 082614](https://github.com/SS7Leo/CODTECH-Task2/assets/140295932/53689fc8-cef9-4890-b7b2-3811d9825862)
 
 ![Screenshot 2024-07-03 082626](https://github.com/SS7Leo/CODTECH-Task2/assets/140295932/3874ef32-d8f7-44ac-bf43-cbe6c47e7631)
+
+###  Program Explanation
+  - Importing Libraries: Essential Python libraries for data manipulation (pandas), numerical operations (numpy), data visualization (matplotlib), and machine learning (scikit-learn) are imported.
+
+  - Loading the Dataset: The California Housing dataset is fetched using fetch_california_housing() and stored in a pandas DataFrame.
+    
+  - Displaying Initial Data: The first few rows of the dataset are displayed to get an overview of the data structure.
+
+  - Feature and Target Selection: The feature MedInc (median income) is selected as the predictor variable (X), and MedHouseVal (median house value) is selected as the target variable (y).
+
+  - Data Splitting: The dataset is split into training and testing sets using train_test_split(), with 80% for training and 20% for testing.
+
+  - Model Initialization and Training: A linear regression model is created and trained on the training data using LinearRegression().fit().
+
+  - Predictions and Evaluation: Predictions are made on the test set, and the model's performance is evaluated using mean squared error (MSE) and R-squared (R²) metrics.
+
+  - Visualization:
+
+      Regression Line: The regression line is plotted against the training data to visualize the model fit.
+    
+      Actual vs Predicted Values: Scatter plots for actual and predicted values on the test set are created to compare the model's predictions against the true values.
+    
+      Residuals Distribution: A histogram of the residuals (errors) is plotted to analyze the distribution of prediction errors.
+    
+###  Key Insights
+  - Model Performance: The MSE and R² values provide quantitative measures of the model's accuracy. A lower MSE indicates fewer prediction errors, while a higher R² suggests a better fit of the model to the data.
+
+  - Linear Relationship: The visualization of the regression line and the scatter plots help in understanding the linear relationship between median income and median house value. The fit of the regression line shows how well the model captures this relationship.
+
+  - Residual Analysis: The distribution of residuals indicates whether the model errors are randomly distributed. A normal distribution of residuals suggests that the model's assumptions are met, and it is appropriately capturing the underlying data patterns.
+
+  - Predictive Insights: The scatter plot of actual vs predicted values helps in identifying how well the model generalizes to unseen data. Clustering of points around the regression line in the test data scatter plot indicates good predictive performance.
+
+  - Interpretability: Using a single feature (median income) makes the model easy to interpret. It shows how changes in median income influence house values in California, providing valuable insights for stakeholders.
 
 
 
