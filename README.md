@@ -105,11 +105,11 @@ Train a linear regression model using the training data to find the best-fit lin
 
   - Visualization:
 
-      Regression Line: The regression line is plotted against the training data to visualize the model fit.
+        Regression Line: The regression line is plotted against the training data to visualize the model fit.
     
-      Actual vs Predicted Values: Scatter plots for actual and predicted values on the test set are created to compare the model's predictions against the true values.
+        Actual vs Predicted Values: Scatter plots for actual and predicted values on the test set are created to compare the model's predictions against the true values.
     
-      Residuals Distribution: A histogram of the residuals (errors) is plotted to analyze the distribution of prediction errors.
+        Residuals Distribution: A histogram of the residuals (errors) is plotted to analyze the distribution of prediction errors.
     
 ###  Key Insights
   - Model Performance: The MSE and R² values provide quantitative measures of the model's accuracy. A lower MSE indicates fewer prediction errors, while a higher R² suggests a better fit of the model to the data.
